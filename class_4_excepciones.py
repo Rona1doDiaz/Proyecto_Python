@@ -1,5 +1,5 @@
-def validar(dato, tipos):
-    if len(dato.replace(" ","")) > 0:
+def validar(dato):
+    if len(dato.replace(" ","")) != 1 or x.isdigit():
         for tipo in tipos:
           try:
               return tipo(dato)
